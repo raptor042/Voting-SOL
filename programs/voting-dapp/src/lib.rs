@@ -115,6 +115,7 @@ pub struct Voting<'info> {
     pub election: Account<'info, Election>,
     #[account(mut)]
     pub voter: Signer<'info>,
+    /// CHECK: Creator's address
     #[account(mut)]
     pub creator: AccountInfo<'info>,
     pub system_program: Program<'info, System>,
