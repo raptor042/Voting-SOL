@@ -1,0 +1,1 @@
+A Voting smart contract built with Anchor and Rust on Solana.
